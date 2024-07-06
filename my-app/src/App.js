@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import PersonalInfo from './components/PersonalInfo/PersonalInfo';
+
+const nameV="Praneet Bandi";    
+const bioV = "I was born in New Jersey and moved to New Tampa shortly after."
+const contactInfoV="I can be reached at this number: 813-564-3453"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+         
+       <PersonalInfo name={nameV} bio={bioV} contactInfo={contactInfoV} />
+      
     </div>
   );
 }
