@@ -1,1 +1,2 @@
 # About-Me-Page-Using-React-Project
+This project involves setting up React. js within visual studio code. The project involves creating an about me page that consists of  a bio section,  relevant skills, work experience and any education completed . These parts are coded in the form of arrays and objects within the array.  
