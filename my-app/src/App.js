@@ -2,8 +2,9 @@ import './App.css';
 import PersonalInfo from './components/PersonalInfo/PersonalInfo';
 import Skills from './components/Skills/Skills';
 import WorkExperience from './components/WorkExperience/WorkExperience';
+import Education from './components/Education/Education';
 const nameV="Praneet Bandi";    
-const bioV = "I was born in New Jersey and moved to New Tampa shortly after."
+const bioV = "I was born in New Jersey and moved to New Tampa shortly after. I have been attending schools in the Tampa Bay area for most of my life."
 const contactInfoV="I can be reached at this number: 813-564-3453"
 //skills array
 const skills=  [
@@ -44,7 +45,13 @@ const workExperience=[
   }
 
  ];
-
+ const education=[
+  {
+    institution :"University of South Florida",
+    degree :"Bachelors of Business Analytics",
+    duration :"2020-Present",
+  },
+ ];
 
 
 
@@ -58,6 +65,7 @@ function App() {
        <PersonalInfo name={nameV} bio={bioV} contactInfo={contactInfoV} />
        <Skills skills={skills}/>
        <WorkExperience workExperience={workExperience}/>
+       <Education education={education}/>
   
          
     </div>
